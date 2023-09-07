@@ -1,0 +1,58 @@
+/* Header.css */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 16px; /* Adjust the font size to make the logo smaller */
+    font-weight: bold;
+    width: 50px; /* Set a specific width for the logo */
+    height: 50px; /* Set a specific height for the logo */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: #333; /* Optional: Set the text color */
+    margin-right: 10px; /* Optional: Add some spacing to the right */
+    padding-left: 0px;
+    margin: 0% 0% 0% 0%;
+    transition: height 0.3s, width 0.3s;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff9900;
+  }
+  .imageLogo{
+    border-radius: 60%;
+  }
+  .logo:hover {
+    height: 100px; /* Increase height on hover */
+    width: 100px; /* Increase width on hover */
+  }

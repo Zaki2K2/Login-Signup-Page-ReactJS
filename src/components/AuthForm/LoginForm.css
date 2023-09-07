@@ -1,0 +1,43 @@
+/* LoginForm.css */
+
+/* Style for the login form container */
+.login-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the login form title */
+  .login-form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form inputs */
+  .login-form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the login button */
+  .login-form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form-button:hover {
+    background-color: #ff9900;
+  }
+  
